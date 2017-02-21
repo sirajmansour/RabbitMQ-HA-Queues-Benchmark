@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F1139E7-5A2A-4F24-96EA-9FD0A64822DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C758932-825F-4E19-9030-98D052406EE8}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RabbitMQBenchmark.Subscriber", "src\RabbitMQBenchmark.Subsciber\RabbitMQBenchmark.Subscriber.xproj", "{50A11F78-3F84-497C-8023-E217D70D6F2E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RabbitMQBenchmark.Publisher", "src\RabbitMQBenchmark.Publisher\RabbitMQBenchmark.Publisher.xproj", "{00247888-EDF6-4FE2-86A1-6C9BFC32F36F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50A11F78-3F84-497C-8023-E217D70D6F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A11F78-3F84-497C-8023-E217D70D6F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A11F78-3F84-497C-8023-E217D70D6F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A11F78-3F84-497C-8023-E217D70D6F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00247888-EDF6-4FE2-86A1-6C9BFC32F36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00247888-EDF6-4FE2-86A1-6C9BFC32F36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00247888-EDF6-4FE2-86A1-6C9BFC32F36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00247888-EDF6-4FE2-86A1-6C9BFC32F36F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50A11F78-3F84-497C-8023-E217D70D6F2E} = {5F1139E7-5A2A-4F24-96EA-9FD0A64822DE}
+		{00247888-EDF6-4FE2-86A1-6C9BFC32F36F} = {5F1139E7-5A2A-4F24-96EA-9FD0A64822DE}
+	EndGlobalSection
+EndGlobal
